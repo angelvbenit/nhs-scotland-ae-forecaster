@@ -1,0 +1,11 @@
+As an aspiring Master's student planning to study Business Analytics in Scotland, I wanted to build a project that engages directly with the region's real-world civic challenges. The NHS 4-hour A&E target is a highly salient issue in Scottish public policy. I chose this specific focus to understand the local healthcare landscape and demonstrate how advanced analytics can be applied to meaningful, localized problems.
+
+## The Business Problem
+As an aspiring Master's student planning to study Business Analytics in Scotland, I wanted to build a project that engages directly with the region's real-world civic challenges. The NHS 4-hour A&E target is a highly salient issue in Scottish public policy. I chose this specific focus to understand the local healthcare landscape and demonstrate how advanced analytics can be applied to meaningful, localized problems.In Scotland, the National Health Service (NHS) has a critical policy target: 95% of patients attending Accident & Emergency (A&E) should be seen, admitted, discharged, or transferred within 4 hours.  Currently, hospital planners rely heavily on looking in the rearview mirror—using historical averages to guess how many people will show up next week. But A&E demand isn't just driven by the calendar; it's driven by freezing weather, flu outbreaks, and staffing shortages. When planners guess wrong, targets are breached, and patient care suffers.
+## The Analytics Solution
+This isn't just a data science project that spits out a raw forecast of "expected patient footfall." This is an operational business analytics tool designed for healthcare policymakers.The core goal of this project is to output an actionable breach probability. Instead of just predicting numbers, this system will tell a hospital planner: "NHS Lothian has a 73% chance of breaching the 4-hour target next week". 
+## Moving from Descriptive to Prescriptive
+The final deliverable will feature a Counterfactual Analysis engine. This transforms the project from a standard forecasting exercise into a prescriptive policy tool. It will allow NHS planners to simulate operational changes and answer business-critical questions like: "What would happen to our breach rate if we hired 10% more nurses during a winter cold snap?"
+
+## Current Project Status
+I am building this pipeline from scratch using open government data.

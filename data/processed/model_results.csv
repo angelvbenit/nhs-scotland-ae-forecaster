@@ -1,0 +1,15 @@
+Model,MAPE,RMSE,MAE,Board,Notes
+SARIMAX Baseline,71.77,0.4319,0.3836,Forth Valley,No exog — seasonal structure only
+SARIMAX + Exog,67.3,0.4061,0.3595,Forth Valley,Best SARIMAX — CovidEra only significant feature
+Prophet Baseline,66.51,0.3762,0.3541,Forth Valley,"Additive growth, holidays only"
+Prophet + Exog,67.74,0.3826,0.3606,Forth Valley,Additive growth + exog regressors
+Prophet Logistic + Cap,28.45,0.1604,0.1487,Forth Valley,Logistic growth cap=0.85 — BEST Prophet variant
+Prophet Logistic + Plateau,28.98,0.1631,0.1515,Forth Valley,Logistic + PostCovidPlateau feature — marginal degradation
+XGBoost All Boards,10.55,0.041,0.0318,All 11 boards,"Full feature set, 30 features, early stopping at iteration 155"
+XGBoost Forth Valley,8.39,0.0564,0.0448,Forth Valley,Forth Valley subset — apple-to-apple with SARIMAX/Prophet
+XGBoost All Boards,10.55,0.041,0.0318,All 11 boards,"Full feature set, 30 features, early stopping at iteration 155"
+XGBoost Forth Valley,8.39,0.0564,0.0448,Forth Valley,Forth Valley subset — apple-to-apple with SARIMAX/Prophet
+XGBoost All Boards,10.55,0.041,0.0318,All 11 boards,"Full feature set, 30 features, early stopping at iteration 155"
+XGBoost Forth Valley,8.39,0.0564,0.0448,Forth Valley,Forth Valley subset — apple-to-apple with SARIMAX/Prophet
+Ensemble 50/50,32.5,0.1142,0.0989,All boards,Equal weights
+Ensemble Optimised,10.51,0.0404,0.0313,All boards,"XGB=0.983, Prophet=0.017"
