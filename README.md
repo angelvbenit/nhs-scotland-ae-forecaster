@@ -29,7 +29,7 @@ This tool forecasts **how severe that breach will be** in the coming weeks and e
  
 ---
  
-## 🏆 Model Performance
+## Model Performance
  
 | Model | MAPE | RMSE | Notes |
 |-------|------|------|-------|
@@ -43,7 +43,7 @@ All metrics computed on held-out test data (Jan 2023 → May 2026, never seen du
  
 ---
  
-## 📁 Project Structure
+## Project Structure
  
 ```
 nhs-scotland-ae-forecaster/
